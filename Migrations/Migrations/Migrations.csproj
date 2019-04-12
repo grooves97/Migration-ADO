@@ -77,5 +77,8 @@
       <DependentUpon>201904120350209_UsersAddCreationDate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Migrations\Sequence.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
